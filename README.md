@@ -3,7 +3,7 @@ Welcome to "Weather in the USA" App. This is a simple JS application designed fo
 
 EXECUTING the APP
 1) Navigate into the folder you where you want to place this application
-2) git clone https://github.com/CodingNannah/JS_WeatherApp_Project.git
+2) git clone https://github.com/CodingNannah/elite100_JS_WeatherApp_Project.git
 3) cd JS_WeatherApp_Project
 Now you are inside the project!
 
