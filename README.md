@@ -16,4 +16,4 @@ Please note, Axios is used with the script tag and not an npm install.
 Authors
 Contributors names and contact info
 
-Sarah Stodder Github: https://github.com/CodingNannah
+Diana Barber Github: https://github.com/CodingNannah
