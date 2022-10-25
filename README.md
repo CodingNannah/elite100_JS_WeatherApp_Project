@@ -1,5 +1,5 @@
 DESCRIPTION
-Welcome to "Weather in the USA" App. This is a simple JS application designed for kids, which shows current weather information for a searchable city in the United States.
+Welcome to "Weather in the USA" App. This is a simple JS application designed for kids. It is designed by using this Weather API https://openweathermap.org/current and shows current weather information for a searchable city in the United States.
 
 EXECUTING the APP
 1) Navigate into the folder you where you want to place this application
