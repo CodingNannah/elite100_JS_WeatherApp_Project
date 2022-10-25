@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', serif;
+  }
+
+.container {
+    margin: 15px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(251, 242, 133);
+    background: radial-gradient(
+    circle,
+    rgba(251, 242, 133, 0.6334908963585435) 0%,
+    rgba(224, 196, 91, 0.8407738095238095) 35%,
+    rgba(230, 224, 113, 1) 100%
+    );
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.outbox {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.inbox {
+    display: flex;
+    flex-direction: column;
+    padding: 20px
+}
+
+#forgot {
+    background-color: rgb(224,44,24);
+    color: white;
+    padding: 10px;
+    border: none
+}
+
+#submit {
+    background-color: rgb(254,180,19);
+    /* rgb(52, 217, 235); */
+    color: white;
+    padding: 10px;
+    border: none
+}
+
+#loc {
+    font-size: 200%;
+    background-color: rgb(120,190,212);
+    color: white;
+    padding: 10px;
+}

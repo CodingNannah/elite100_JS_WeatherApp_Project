@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="stylesheet" href="./weatherAPI-flex.css">
+    <link rel="icon" size="32x32" href="./images/favicon.png">
+    
+    <script defer src="./weatherAPI.js"></script>
+
+    <title>Weather API Box</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="welcome">
+            <h3>Message to all Weather in the USA Visitors:</h3><br>
+            <p>Welcome!</p><br>
+            <p>The state ID button is not functioning properly, yet.</p>
+            <p>You may right click on it with your mouse to locate state IDs.</p><br>
+            <p>If your city location comes back as "undefined" (for example: try Dead Horse, Alaska),</p>
+            <p>that means your chosen city not currently available in the database.</p>
+            <p>Please try another city.</p><br>
+            
+            <p>We hope you enjoy this app! </p><br>
+
+            <h1> Weather in the USA </h1></i><br>
+            
+            <!-- Input Field -->
+            <form class="form m-3" id="search">
+                <div class="m-3">
+                    <label for="city">City:</label><br>
+                    <input type="text" id="city" name="city"><br>
+                </div><br>
+                <div class="m-3">
+                    <label for="round">Two-digit State:</label><br>
+                    <input type="text" id="state" name="state"><br><br>
+                </div>
+                    <a href="https://abbreviations.yourdictionary.com/articles/state-abbrev.html" target="_blank">
+                        <button class="btn" id="forgot">Forgot State ID</button></a>
+                    <button class="btn" id="submit">Submit</button>
+            </form><br>
+        
+            <div id="loc"><span><h2>Location</h2></span></h2></div>
+            <div id="desc"><span>Description here</span></div>
+        </div><br>
+
+        <div class="weather"><h3>Current Weather</h3><br>
+            <div class="outbox">
+                <img rel="icon" class="icon" src="./images/hot_weather.ico">
+                <div class="inbox"><h3>High</h3>
+                    <div class="f" id="high-f"><span>&#176;F:</span></div>
+                    <div class="c" id="high-c"><span>&#176;C:</span></div>
+                </div>
+            
+                <img rel="icon" class="icon" src="./images/cold_weather.ico">
+                <div class="inbox"><h3>Low</h3>
+                    <div class="f" id="low-f"><span>&#176;F:</span></div>
+                    <div class="c" id="low-c"><span>&#176;C:</span></div>
+                </div>
+            
+                <img rel="icon" class="icon" src="./images/humidity.ico">
+                <div class="inbox"><h3>Humidity</h3>
+                    <div id="hum"><span></span></div>
+                </div>
+                <img rel="icon" class="icon" src="./images/forecast.ico">
+                <div class="inbox"><h3>Feels Like</h3>
+                    <div id="feels-f"><span>&#176;F:</span></div>
+                    <div id="feels-c"><span>&#176;C:</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
